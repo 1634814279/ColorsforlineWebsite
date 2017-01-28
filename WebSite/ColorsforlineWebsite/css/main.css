@@ -1,0 +1,23 @@
+﻿p {width: 10%;float:left;margin: 1%;outline: solid;background-color: rgb(240,240,240);background-position:center}
+p.background {background-color: rgb(240,240,240)}
+p.blue {background-image: url(../img/Blue.jpg);background-repeat: no-repeat}
+p.green {background-image: url(../img/Green.jpg);background-repeat: no-repeat}
+p.grey {background-image: url(../img/Grey.jpg);background-repeat: no-repeat}
+p.purple {background-image: url(../img/Purple.jpg);background-repeat: no-repeat}
+p.red {background-image: url(../img/Red.jpg);background-repeat: no-repeat}
+p.yellow {background-image: url(../img/Yellow.jpg);background-repeat: no-repeat}
+#topbar {text-align:center}
+#chessboard {float:left;width:60%}
+#nextcolor {float:left;width:33%;height:5px}
+#margin {clear:both;width:2%;height:2%}
+#chessboardcenter {float:left;width:0;height:80%;clear:both}
+/*为使chessboardcenter生效 line的width不能为100% 会因为浮动距离不够移到下行*/
+.line {float:left;width:100%}
+/*.bottom {background-position:bottom;background-image: url(bottom.png);background-repeat: no-repeat;width:100%;height:100%}*/
+.top {float:left;width:20%;height:75%}
+.img {float:left;width:100%;height:90%;background-repeat: no-repeat;background-position:50% 0;visibility:hidden}
+#kingimg {background-image: url(../img/king.png);}
+#challengerimg {background-image: url(../img/challenger.png);}
+body {
+    background: #DCDDDF url(http://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);
+}
